@@ -1,0 +1,33 @@
+p {
+    /* alinhamento do texto */
+    text-align: ; 
+    /* subilinhar texto */
+    text-decoration: ;
+    /* espaçamento do inicio do paragrafo */
+    text-indent: ;
+    /* tudo maiusculo ou tudo minusculo  */
+    text-transform: ;
+
+    
+    /* cor do elemento */
+    color: ;
+
+
+    /* familia da fonte */
+    font-family: ;
+    /* tamanho da fonte */
+    font-size: ;
+    /* se a fonte é bold, regular, italic */
+    font-style: ;
+    /* mudar forma de escrita */
+    font-variant: ;
+
+}
+
+.class {
+    color: red;
+}
+
+#id {
+    color: green;
+}
