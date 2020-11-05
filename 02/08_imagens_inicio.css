@@ -1,3 +1,7 @@
+/* * {
+    display: none;
+} */
+
 body {
     font-size: 22px;
     font-family: sans-serif;
@@ -20,5 +24,9 @@ p {
 
 .imgcss {
     float: right;
+}
+
+h1, p {
+    border: 3px solid red;
 }
 
