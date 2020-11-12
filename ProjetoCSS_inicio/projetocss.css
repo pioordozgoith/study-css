@@ -33,24 +33,29 @@ nav ul li {
 
 #hero {
   background-image: url(./imagens/bg-2.jpg);
-  height: 900px;
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom ;
-  margin-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
   /* border: 5px solid red; */
 }
 
 #hero-info {
+  align-self: center;
   /* animation-name: roda;
   animation-duration: 1000ms;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out; */
 
-  width: 60%;
+  width: 50vw;
   /* height: 200px; */
   margin: auto;
-  padding: 22vh;
+
+  /* padding: 25vh; */
   /* border: 5px solid red; */
 
   text-align: center;
@@ -85,14 +90,14 @@ main #cursos {
   margin: 25px;
   padding: 20px 10px;
   background-color: whitesmoke;
-  /* display: flex; */
+  display: flex;
   
 }
 
 .card {
   margin: auto;
-  height: 200px;
-  width: 300px;
+  display: flex;
+  flex-direction: column;
 }
 
 h4 { 
